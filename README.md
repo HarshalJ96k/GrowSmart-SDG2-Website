@@ -29,7 +29,7 @@ Responsive Design
 
 🚀 How to Run Locally
 Clone the repository:
-git clone https://github.com/<your-username>/GrowSmart-SDG2-Website.git
+git clone https://github.com/HarshalJ96k/GrowSmart-SDG2-Website.git
 
 Open the folder:
 cd GrowSmart-SDG2-Website
