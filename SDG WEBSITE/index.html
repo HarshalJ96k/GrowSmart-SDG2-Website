@@ -47,12 +47,16 @@
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
-                        <a href="#home" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
-                        <a href="#about-sdg" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors">About SDG 2</a>
-                        <a href="#initiative" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors">Our Initiative</a>
-                        <a href="#get-involved" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors">Get Involved</a>
-                        <a href="#resources" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors">Resources</a>
-                        <a href="#contact" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                        <a href="#home" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors" data-en="Home" data-mr="मुख्यपृष्ठ">Home</a>
+                        <a href="#about-sdg" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors" data-en="About SDG 2" data-mr="SDG 2 बद्दल">About SDG 2</a>
+                        <a href="#initiative" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors" data-en="Our Initiative" data-mr="आमचा उपक्रम">Our Initiative</a>
+                        <a href="#get-involved" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors" data-en="Get Involved" data-mr="सहभागी व्हा">Get Involved</a>
+                        <a href="#resources" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors" data-en="Resources" data-mr="संसाधने">Resources</a>
+                        <a href="#contact" class="text-gray-700 hover:text-sdg-green px-3 py-2 rounded-md text-sm font-medium transition-colors" data-en="Contact" data-mr="संपर्क">Contact</a>
+                        <button id="language-toggle" class="bg-sdg-green text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600 transition-colors flex items-center">
+                            <span class="mr-1">🌐</span>
+                            <span id="lang-text">मराठी</span>
+                        </button>
                     </div>
                 </div>
                 <div class="md:hidden">
@@ -66,12 +70,16 @@
         </div>
         <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
             <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="#home" class="block px-3 py-2 text-gray-700 hover:text-sdg-green">Home</a>
-                <a href="#about-sdg" class="block px-3 py-2 text-gray-700 hover:text-sdg-green">About SDG 2</a>
-                <a href="#initiative" class="block px-3 py-2 text-gray-700 hover:text-sdg-green">Our Initiative</a>
-                <a href="#get-involved" class="block px-3 py-2 text-gray-700 hover:text-sdg-green">Get Involved</a>
-                <a href="#resources" class="block px-3 py-2 text-gray-700 hover:text-sdg-green">Resources</a>
-                <a href="#contact" class="block px-3 py-2 text-gray-700 hover:text-sdg-green">Contact</a>
+                <a href="#home" class="block px-3 py-2 text-gray-700 hover:text-sdg-green" data-en="Home" data-mr="मुख्यपृष्ठ">Home</a>
+                <a href="#about-sdg" class="block px-3 py-2 text-gray-700 hover:text-sdg-green" data-en="About SDG 2" data-mr="SDG 2 बद्दल">About SDG 2</a>
+                <a href="#initiative" class="block px-3 py-2 text-gray-700 hover:text-sdg-green" data-en="Our Initiative" data-mr="आमचा उपक्रम">Our Initiative</a>
+                <a href="#get-involved" class="block px-3 py-2 text-gray-700 hover:text-sdg-green" data-en="Get Involved" data-mr="सहभागी व्हा">Get Involved</a>
+                <a href="#resources" class="block px-3 py-2 text-gray-700 hover:text-sdg-green" data-en="Resources" data-mr="संसाधने">Resources</a>
+                <a href="#contact" class="block px-3 py-2 text-gray-700 hover:text-sdg-green" data-en="Contact" data-mr="संपर्क">Contact</a>
+                <button id="mobile-language-toggle" class="w-full text-left px-3 py-2 text-gray-700 hover:text-sdg-green flex items-center">
+                    <span class="mr-2">🌐</span>
+                    <span id="mobile-lang-text">मराठी</span>
+                </button>
             </div>
         </div>
     </nav>
@@ -79,20 +87,20 @@
     <!-- Hero Section -->
     <section id="home" class="hero-bg min-h-full flex items-center justify-center text-white pt-16">
         <div class="max-w-4xl mx-auto text-center px-4 py-20">
-            <h1 class="text-5xl md:text-6xl font-bold mb-6">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6" data-en="Grow Food. Protect the Planet. 🌾" data-mr="अन्न उगवा. पृथ्वीचे संरक्षण करा. 🌾">
                 Grow Food. Protect the Planet. 🌾
             </h1>
-            <p class="text-xl md:text-2xl mb-8 font-light">
+            <p class="text-xl md:text-2xl mb-8 font-light" data-en="Sustainable farming for a hunger-free future" data-mr="भुकमुक्त भविष्यासाठी शाश्वत शेती">
                 Sustainable farming for a hunger-free future
             </p>
-            <p class="text-lg mb-10 max-w-2xl mx-auto">
+            <p class="text-lg mb-10 max-w-2xl mx-auto" data-en="Join GrowSmart in promoting Sustainable Development Goal 2: Zero Hunger through sustainable agriculture and community awareness." data-mr="शाश्वत शेती आणि समुदायिक जागरूकतेद्वारे शाश्वत विकास लक्ष्य 2: शून्य भूक यांना प्रोत्साहन देण्यासाठी GrowSmart मध्ये सामील व्हा.">
                 Join GrowSmart in promoting Sustainable Development Goal 2: Zero Hunger through sustainable agriculture and community awareness.
             </p>
             <div class="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-                <a href="#about-sdg" class="inline-block bg-white text-sdg-green px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
+                <a href="#about-sdg" class="inline-block bg-white text-sdg-green px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors" data-en="Learn About SDG 2" data-mr="SDG 2 बद्दल जाणून घ्या">
                     Learn About SDG 2
                 </a>
-                <a href="#get-involved" class="inline-block border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-sdg-green transition-colors">
+                <a href="#get-involved" class="inline-block border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-sdg-green transition-colors" data-en="Join Our Mission" data-mr="आमच्या मिशनमध्ये सामील व्हा">
                     Join Our Mission
                 </a>
             </div>
@@ -103,49 +111,49 @@
     <section id="about-sdg" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">About SDG 2: Zero Hunger</h2>
+                <h2 class="text-4xl font-bold text-gray-900 mb-4" data-en="About SDG 2: Zero Hunger" data-mr="SDG 2 बद्दल: शून्य भूक">About SDG 2: Zero Hunger</h2>
                 <div class="w-24 h-1 bg-sdg-green mx-auto mb-8"></div>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-en="Sustainable Development Goal 2 aims to end hunger, achieve food security, improve nutrition, and promote sustainable agriculture by 2030." data-mr="शाश्वत विकास लक्ष्य 2 चे उद्दिष्ट 2030 पर्यंत भूक संपवणे, अन्न सुरक्षा साध्य करणे, पोषण सुधारणे आणि शाश्वत शेतीला प्रोत्साहन देणे आहे.">
                     Sustainable Development Goal 2 aims to end hunger, achieve food security, improve nutrition, and promote sustainable agriculture by 2030.
                 </p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Target 2.4: Sustainable Agriculture</h3>
-                    <p class="text-gray-600 mb-6">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6" data-en="Target 2.4: Sustainable Agriculture" data-mr="लक्ष्य 2.4: शाश्वत शेती">Target 2.4: Sustainable Agriculture</h3>
+                    <p class="text-gray-600 mb-6" data-en="By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, help maintain ecosystems, strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters." data-mr="2030 पर्यंत, शाश्वत अन्न उत्पादन प्रणाली सुनिश्चित करा आणि लवचिक कृषी पद्धती लागू करा ज्या उत्पादकता आणि उत्पादन वाढवतात, पारिस्थितिकी तंत्र राखण्यास मदत करतात, हवामान बदल, अतिवृष्टी, दुष्काळ, पूर आणि इतर आपत्तींशी जुळवून घेण्याची क्षमता मजबूत करतात.">
                         By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, help maintain ecosystems, strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters.
                     </p>
                     <div class="bg-sdg-green bg-opacity-10 p-6 rounded-lg">
-                        <h4 class="font-semibold text-gray-900 mb-4">Key Global Facts:</h4>
+                        <h4 class="font-semibold text-gray-900 mb-4" data-en="Key Global Facts:" data-mr="मुख्य जागतिक तथ्ये:">Key Global Facts:</h4>
                         <ul class="space-y-2 text-gray-700">
-                            <li>• 828 million people faced hunger in 2021</li>
-                            <li>• Agriculture employs over 26% of the world's population</li>
-                            <li>• 40% of global land is used for agriculture</li>
-                            <li>• Sustainable practices can increase yields by 79%</li>
+                            <li data-en="• 828 million people faced hunger in 2021" data-mr="• 2021 मध्ये 828 दशलक्ष लोकांना भुकेचा सामना करावा लागला">• 828 million people faced hunger in 2021</li>
+                            <li data-en="• Agriculture employs over 26% of the world's population" data-mr="• शेती जगातील 26% पेक्षा जास्त लोकसंख्येला रोजगार देते">• Agriculture employs over 26% of the world's population</li>
+                            <li data-en="• 40% of global land is used for agriculture" data-mr="• जागतिक जमिनीपैकी 40% शेतीसाठी वापरली जाते">• 40% of global land is used for agriculture</li>
+                            <li data-en="• Sustainable practices can increase yields by 79%" data-mr="• शाश्वत पद्धती उत्पादन 79% पर्यंत वाढवू शकतात">• Sustainable practices can increase yields by 79%</li>
                         </ul>
                     </div>
                 </div>
                 <div class="bg-gradient-to-br from-sdg-green to-green-600 p-8 rounded-2xl text-white">
                     <div class="text-center">
                         <div class="text-6xl mb-4">🎯</div>
-                        <h3 class="text-2xl font-bold mb-4">SDG 2 Targets</h3>
+                        <h3 class="text-2xl font-bold mb-4" data-en="SDG 2 Targets" data-mr="SDG 2 लक्ष्ये">SDG 2 Targets</h3>
                         <div class="space-y-4 text-left">
                             <div class="flex items-start">
                                 <span class="text-2xl mr-3">🍽️</span>
-                                <span>End hunger and ensure access to nutritious food</span>
+                                <span data-en="End hunger and ensure access to nutritious food" data-mr="भूक संपवा आणि पौष्टिक अन्नाची उपलब्धता सुनिश्चित करा">End hunger and ensure access to nutritious food</span>
                             </div>
                             <div class="flex items-start">
                                 <span class="text-2xl mr-3">👶</span>
-                                <span>End all forms of malnutrition</span>
+                                <span data-en="End all forms of malnutrition" data-mr="सर्व प्रकारचे कुपोषण संपवा">End all forms of malnutrition</span>
                             </div>
                             <div class="flex items-start">
                                 <span class="text-2xl mr-3">🌱</span>
-                                <span>Double agricultural productivity</span>
+                                <span data-en="Double agricultural productivity" data-mr="कृषी उत्पादकता दुप्पट करा">Double agricultural productivity</span>
                             </div>
                             <div class="flex items-start">
                                 <span class="text-2xl mr-3">🌍</span>
-                                <span>Ensure sustainable food production</span>
+                                <span data-en="Ensure sustainable food production" data-mr="शाश्वत अन्न उत्पादन सुनिश्चित करा">Ensure sustainable food production</span>
                             </div>
                         </div>
                     </div>
@@ -158,9 +166,9 @@
     <section id="initiative" class="py-20 bg-warm-beige">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Initiative – GrowSmart</h2>
+                <h2 class="text-4xl font-bold text-gray-900 mb-4" data-en="Our Initiative – GrowSmart" data-mr="आमचा उपक्रम – GrowSmart">Our Initiative – GrowSmart</h2>
                 <div class="w-24 h-1 bg-sdg-green mx-auto mb-8"></div>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-en="A student-led initiative dedicated to spreading awareness about sustainable agriculture and zero hunger through digital campaigns and community engagement." data-mr="डिजिटल मोहिमा आणि समुदायिक सहभागाद्वारे शाश्वत शेती आणि शून्य भूक याबद्दल जागरूकता पसरवण्यासाठी समर्पित विद्यार्थी-नेतृत्वाखालील उपक्रम.">
                     A student-led initiative dedicated to spreading awareness about sustainable agriculture and zero hunger through digital campaigns and community engagement.
                 </p>
             </div>
@@ -168,11 +176,11 @@
             <div class="grid lg:grid-cols-3 gap-8 mb-12">
                 <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
                     <div class="text-4xl mb-4">📱</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Instagram Campaigns</h3>
-                    <p class="text-gray-600 mb-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4" data-en="Instagram Campaigns" data-mr="Instagram मोहिमा">Instagram Campaigns</h3>
+                    <p class="text-gray-600 mb-6" data-en="We create engaging content, infographics, and educational posts to raise awareness about sustainable farming practices and food security." data-mr="आम्ही शाश्वत शेती पद्धती आणि अन्न सुरक्षा याबद्दल जागरूकता निर्माण करण्यासाठी आकर्षक सामग्री, इन्फोग्राफिक्स आणि शैक्षणिक पोस्ट तयार करतो.">
                         We create engaging content, infographics, and educational posts to raise awareness about sustainable farming practices and food security.
                     </p>
-                    <a href="https://www.instagram.com/growsmart_sdg_2.4" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sdg-green font-semibold hover:text-green-700">
+                    <a href="https://www.instagram.com/growsmart_sdg_2.4" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sdg-green font-semibold hover:text-green-700" data-en="Follow Our Journey" data-mr="आमच्या प्रवासाचे अनुसरण करा">
                         Follow Our Journey
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
@@ -182,26 +190,26 @@
 
                 <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
                     <div class="text-4xl mb-4">🤝</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Community Outreach</h3>
-                    <p class="text-gray-600 mb-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4" data-en="Community Outreach" data-mr="समुदायिक पोहोच">Community Outreach</h3>
+                    <p class="text-gray-600 mb-6" data-en="We organize workshops, webinars, and local events to educate communities about sustainable agriculture and food security solutions." data-mr="आम्ही शाश्वत शेती आणि अन्न सुरक्षा उपायांबद्दल समुदायांना शिक्षित करण्यासाठी कार्यशाळा, वेबिनार आणि स्थानिक कार्यक्रम आयोजित करतो.">
                         We organize workshops, webinars, and local events to educate communities about sustainable agriculture and food security solutions.
                     </p>
-                    <span class="text-sdg-green font-semibold">Building Connections</span>
+                    <span class="text-sdg-green font-semibold" data-en="Building Connections" data-mr="संबंध निर्माण करणे">Building Connections</span>
                 </div>
 
                 <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
                     <div class="text-4xl mb-4">🎓</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Educational Impact</h3>
-                    <p class="text-gray-600 mb-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4" data-en="Educational Impact" data-mr="शैक्षणिक प्रभाव">Educational Impact</h3>
+                    <p class="text-gray-600 mb-6" data-en="Through research-backed content and partnerships, we're making sustainable agriculture knowledge accessible to students and communities." data-mr="संशोधन-आधारित सामग्री आणि भागीदारीद्वारे, आम्ही विद्यार्थी आणि समुदायांसाठी शाश्वत शेती ज्ञान सुलभ करत आहोत.">
                         Through research-backed content and partnerships, we're making sustainable agriculture knowledge accessible to students and communities.
                     </p>
-                    <span class="text-sdg-green font-semibold">Empowering Change</span>
+                    <span class="text-sdg-green font-semibold" data-en="Empowering Change" data-mr="बदलाला सक्षम करणे">Empowering Change</span>
                 </div>
             </div>
 
             <div class="bg-white p-8 rounded-2xl shadow-lg text-center">
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">Connect with GrowSmart</h3>
-                <p class="text-gray-600 mb-6">Follow our Instagram for daily updates, tips, and inspiring stories about sustainable agriculture</p>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4" data-en="Connect with GrowSmart" data-mr="GrowSmart शी जुळवून घ्या">Connect with GrowSmart</h3>
+                <p class="text-gray-600 mb-6" data-en="Follow our Instagram for daily updates, tips, and inspiring stories about sustainable agriculture" data-mr="शाश्वत शेतीबद्दल दैनिक अपडेट्स, टिप्स आणि प्रेरणादायक कथांसाठी आमच्या Instagram चे अनुसरण करा">Follow our Instagram for daily updates, tips, and inspiring stories about sustainable agriculture</p>
                 <div class="bg-gradient-to-r from-purple-500 to-pink-500 p-6 rounded-xl text-white inline-block">
                     <div class="flex items-center justify-center space-x-4">
                         <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -221,24 +229,24 @@
     <section id="get-involved" class="py-20 bg-sdg-green text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold mb-4">Get Involved / Join Us</h2>
+                <h2 class="text-4xl font-bold mb-4" data-en="Get Involved / Join Us" data-mr="सहभागी व्हा / आमच्यात सामील व्हा">Get Involved / Join Us</h2>
                 <div class="w-24 h-1 bg-white mx-auto mb-8"></div>
-                <p class="text-xl max-w-3xl mx-auto opacity-90">
+                <p class="text-xl max-w-3xl mx-auto opacity-90" data-en="Ready to make a difference? Connect with us to volunteer, collaborate, or support our mission for sustainable agriculture awareness." data-mr="बदल घडवण्यास तयार आहात? स्वयंसेवा करण्यासाठी, सहयोग करण्यासाठी किंवा शाश्वत शेती जागरूकतेसाठी आमच्या मिशनला पाठिंबा देण्यासाठी आमच्याशी संपर्क साधा.">
                     Ready to make a difference? Connect with us to volunteer, collaborate, or support our mission for sustainable agriculture awareness.
                 </p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <h3 class="text-2xl font-bold mb-6">How You Can Help</h3>
+                    <h3 class="text-2xl font-bold mb-6" data-en="How You Can Help" data-mr="तुम्ही कशी मदत करू शकता">How You Can Help</h3>
                     <div class="space-y-6">
                         <div class="flex items-start">
                             <div class="bg-white bg-opacity-20 p-3 rounded-full mr-4 mt-1">
                                 <span class="text-2xl">🌱</span>
                             </div>
                             <div>
-                                <h4 class="font-semibold mb-2">Spread Awareness</h4>
-                                <p class="opacity-90">Share our content and help us reach more people with sustainable agriculture knowledge.</p>
+                                <h4 class="font-semibold mb-2" data-en="Spread Awareness" data-mr="जागरूकता पसरवा">Spread Awareness</h4>
+                                <p class="opacity-90" data-en="Share our content and help us reach more people with sustainable agriculture knowledge." data-mr="आमची सामग्री शेअर करा आणि शाश्वत शेती ज्ञानासह अधिक लोकांपर्यंत पोहोचण्यास आम्हाला मदत करा.">Share our content and help us reach more people with sustainable agriculture knowledge.</p>
                             </div>
                         </div>
                         <div class="flex items-start">
@@ -246,8 +254,8 @@
                                 <span class="text-2xl">🤝</span>
                             </div>
                             <div>
-                                <h4 class="font-semibold mb-2">Volunteer</h4>
-                                <p class="opacity-90">Join our team to create content, organize events, or contribute your skills to our mission.</p>
+                                <h4 class="font-semibold mb-2" data-en="Volunteer" data-mr="स्वयंसेवक">Volunteer</h4>
+                                <p class="opacity-90" data-en="Join our team to create content, organize events, or contribute your skills to our mission." data-mr="सामग्री तयार करण्यासाठी, कार्यक्रम आयोजित करण्यासाठी किंवा आमच्या मिशनमध्ये तुमची कौशल्ये योगदान देण्यासाठी आमच्या टीममध्ये सामील व्हा.">Join our team to create content, organize events, or contribute your skills to our mission.</p>
                             </div>
                         </div>
                         <div class="flex items-start">
@@ -255,23 +263,23 @@
                                 <span class="text-2xl">💡</span>
                             </div>
                             <div>
-                                <h4 class="font-semibold mb-2">Share Ideas</h4>
-                                <p class="opacity-90">Have innovative ideas for promoting sustainable agriculture? We'd love to hear from you!</p>
+                                <h4 class="font-semibold mb-2" data-en="Share Ideas" data-mr="कल्पना शेअर करा">Share Ideas</h4>
+                                <p class="opacity-90" data-en="Have innovative ideas for promoting sustainable agriculture? We'd love to hear from you!" data-mr="शाश्वत शेतीला प्रोत्साहन देण्यासाठी नाविन्यपूर्ण कल्पना आहेत? आम्हाला तुमच्याकडून ऐकायला आवडेल!">Have innovative ideas for promoting sustainable agriculture? We'd love to hear from you!</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="bg-white bg-opacity-10 p-8 rounded-2xl backdrop-blur-sm">
-                    <h3 class="text-2xl font-bold mb-6 text-center">Connect With Us</h3>
+                    <h3 class="text-2xl font-bold mb-6 text-center" data-en="Connect With Us" data-mr="आमच्याशी संपर्क साधा">Connect With Us</h3>
                     <div class="space-y-4">
-                        <a href="https://wa.me/919021307634" target="_blank" rel="noopener noreferrer" class="w-full bg-green-600 hover:bg-green-700 text-white py-4 px-6 rounded-xl font-semibold transition-colors flex items-center justify-center">
+                        <a href="https://wa.me/919900990099" target="_blank" rel="noopener noreferrer" class="w-full bg-green-600 hover:bg-green-700 text-white py-4 px-6 rounded-xl font-semibold transition-colors flex items-center justify-center" data-en="Chat on WhatsApp" data-mr="WhatsApp वर चॅट करा">
                             <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
                             </svg>
                             Chat on WhatsApp
                         </a>
-                        <a href="https://www.instagram.com/growsmart_sdg_2.4" target="_blank" rel="noopener noreferrer" class="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white py-4 px-6 rounded-xl font-semibold transition-colors flex items-center justify-center">
+                        <a href="https://www.instagram.com/growsmart_sdg_2.4" target="_blank" rel="noopener noreferrer" class="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white py-4 px-6 rounded-xl font-semibold transition-colors flex items-center justify-center" data-en="Follow on Instagram" data-mr="Instagram वर फॉलो करा">
                             <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                             </svg>
@@ -279,7 +287,7 @@
                         </a>
                     </div>
                     <div class="mt-6 text-center">
-                        <p class="text-sm opacity-75">Ready to join our mission? Reach out today!</p>
+                        <p class="text-sm opacity-75" data-en="Ready to join our mission? Reach out today!" data-mr="आमच्या मिशनमध्ये सामील होण्यास तयार आहात? आजच संपर्क साधा!">Ready to join our mission? Reach out today!</p>
                     </div>
                 </div>
             </div>
@@ -290,9 +298,9 @@
     <section id="resources" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">Educational Resources</h2>
+                <h2 class="text-4xl font-bold text-gray-900 mb-4" data-en="Educational Resources" data-mr="शैक्षणिक संसाधने">Educational Resources</h2>
                 <div class="w-24 h-1 bg-sdg-green mx-auto mb-8"></div>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-en="Discover articles, infographics, and insights about sustainable agriculture and zero hunger initiatives." data-mr="शाश्वत शेती आणि शून्य भूक उपक्रमांबद्दल लेख, इन्फोग्राफिक्स आणि अंतर्दृष्टी शोधा.">
                     Discover articles, infographics, and insights about sustainable agriculture and zero hunger initiatives.
                 </p>
             </div>
@@ -300,65 +308,65 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                 <article class="bg-warm-beige p-6 rounded-2xl card-hover">
                     <div class="text-4xl mb-4">🌾</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Sustainable Farming Practices</h3>
-                    <p class="text-gray-600 mb-4">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3" data-en="Sustainable Farming Practices" data-mr="शाश्वत शेती पद्धती">Sustainable Farming Practices</h3>
+                    <p class="text-gray-600 mb-4" data-en="Learn about crop rotation, organic farming, and water-efficient irrigation techniques that protect our environment while increasing yields." data-mr="पीक फेरबदल, सेंद्रिय शेती आणि पाणी-कार्यक्षम सिंचन तंत्रांबद्दल जाणून घ्या जे उत्पादन वाढवताना आपल्या पर्यावरणाचे संरक्षण करतात.">
                         Learn about crop rotation, organic farming, and water-efficient irrigation techniques that protect our environment while increasing yields.
                     </p>
-                    <span class="text-sdg-green font-semibold text-sm">FARMING TECHNIQUES</span>
+                    <span class="text-sdg-green font-semibold text-sm" data-en="FARMING TECHNIQUES" data-mr="शेती तंत्रे">FARMING TECHNIQUES</span>
                 </article>
 
                 <article class="bg-warm-beige p-6 rounded-2xl card-hover">
                     <div class="text-4xl mb-4">🌍</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Climate-Smart Agriculture</h3>
-                    <p class="text-gray-600 mb-4">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3" data-en="Climate-Smart Agriculture" data-mr="हवामान-स्मार्ट शेती">Climate-Smart Agriculture</h3>
+                    <p class="text-gray-600 mb-4" data-en="Explore how farmers adapt to climate change through resilient crops, soil conservation, and sustainable land management practices." data-mr="लवचिक पिके, मृदा संवर्धन आणि शाश्वत भूमी व्यवस्थापन पद्धतींद्वारे शेतकरी हवामान बदलाशी कसे जुळवून घेतात ते एक्सप्लोर करा.">
                         Explore how farmers adapt to climate change through resilient crops, soil conservation, and sustainable land management practices.
                     </p>
-                    <span class="text-sdg-green font-semibold text-sm">CLIMATE ADAPTATION</span>
+                    <span class="text-sdg-green font-semibold text-sm" data-en="CLIMATE ADAPTATION" data-mr="हवामान अनुकूलन">CLIMATE ADAPTATION</span>
                 </article>
 
                 <article class="bg-warm-beige p-6 rounded-2xl card-hover">
                     <div class="text-4xl mb-4">🥬</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Food Security Solutions</h3>
-                    <p class="text-gray-600 mb-4">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3" data-en="Food Security Solutions" data-mr="अन्न सुरक्षा उपाय">Food Security Solutions</h3>
+                    <p class="text-gray-600 mb-4" data-en="Discover innovative approaches to ensure everyone has access to nutritious, affordable food through local food systems and urban farming." data-mr="स्थानिक अन्न प्रणाली आणि शहरी शेतीद्वारे प्रत्येकाला पौष्टिक, परवडणारे अन्न मिळावे यासाठी नाविन्यपूर्ण दृष्टिकोन शोधा.">
                         Discover innovative approaches to ensure everyone has access to nutritious, affordable food through local food systems and urban farming.
                     </p>
-                    <span class="text-sdg-green font-semibold text-sm">FOOD ACCESS</span>
+                    <span class="text-sdg-green font-semibold text-sm" data-en="FOOD ACCESS" data-mr="अन्न प्रवेश">FOOD ACCESS</span>
                 </article>
 
                 <article class="bg-warm-beige p-6 rounded-2xl card-hover">
                     <div class="text-4xl mb-4">💧</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Water Conservation</h3>
-                    <p class="text-gray-600 mb-4">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3" data-en="Water Conservation" data-mr="जल संवर्धन">Water Conservation</h3>
+                    <p class="text-gray-600 mb-4" data-en="Learn about drip irrigation, rainwater harvesting, and other water-saving technologies that help farmers use water more efficiently." data-mr="ठिबक सिंचन, पावसाचे पाणी साठवणे आणि इतर पाणी बचत तंत्रज्ञानाबद्दल जाणून घ्या जे शेतकऱ्यांना पाणी अधिक कार्यक्षमतेने वापरण्यास मदत करते.">
                         Learn about drip irrigation, rainwater harvesting, and other water-saving technologies that help farmers use water more efficiently.
                     </p>
-                    <span class="text-sdg-green font-semibold text-sm">WATER MANAGEMENT</span>
+                    <span class="text-sdg-green font-semibold text-sm" data-en="WATER MANAGEMENT" data-mr="जल व्यवस्थापन">WATER MANAGEMENT</span>
                 </article>
 
                 <article class="bg-warm-beige p-6 rounded-2xl card-hover">
                     <div class="text-4xl mb-4">🌱</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Soil Health & Biodiversity</h3>
-                    <p class="text-gray-600 mb-4">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3" data-en="Soil Health & Biodiversity" data-mr="मृदा आरोग्य आणि जैवविविधता">Soil Health & Biodiversity</h3>
+                    <p class="text-gray-600 mb-4" data-en="Understand the importance of healthy soil ecosystems and how biodiversity supports sustainable food production systems." data-mr="निरोगी मृदा पारिस्थितिकी तंत्राचे महत्त्व आणि जैवविविधता शाश्वत अन्न उत्पादन प्रणालींना कशी आधार देते हे समजून घ्या.">
                         Understand the importance of healthy soil ecosystems and how biodiversity supports sustainable food production systems.
                     </p>
-                    <span class="text-sdg-green font-semibold text-sm">ECOSYSTEM HEALTH</span>
+                    <span class="text-sdg-green font-semibold text-sm" data-en="ECOSYSTEM HEALTH" data-mr="पारिस्थितिकी आरोग्य">ECOSYSTEM HEALTH</span>
                 </article>
 
                 <article class="bg-warm-beige p-6 rounded-2xl card-hover">
                     <div class="text-4xl mb-4">🏘️</div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Community Gardens</h3>
-                    <p class="text-gray-600 mb-4">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3" data-en="Community Gardens" data-mr="समुदायिक बागा">Community Gardens</h3>
+                    <p class="text-gray-600 mb-4" data-en="Get inspired by community-led initiatives that bring fresh, local food to neighborhoods while building social connections." data-mr="समुदाय-नेतृत्वाखालील उपक्रमांपासून प्रेरणा घ्या जे सामाजिक संबंध निर्माण करताना शेजारच्या भागात ताजे, स्थानिक अन्न आणतात.">
                         Get inspired by community-led initiatives that bring fresh, local food to neighborhoods while building social connections.
                     </p>
-                    <span class="text-sdg-green font-semibold text-sm">COMMUNITY ACTION</span>
+                    <span class="text-sdg-green font-semibold text-sm" data-en="COMMUNITY ACTION" data-mr="समुदायिक कृती">COMMUNITY ACTION</span>
                 </article>
             </div>
 
             <div class="bg-gradient-to-r from-sdg-green to-green-600 p-8 rounded-2xl text-white text-center">
-                <h3 class="text-2xl font-bold mb-4">💡 Inspiring Quote</h3>
-                <blockquote class="text-xl italic mb-4">
+                <h3 class="text-2xl font-bold mb-4" data-en="💡 Inspiring Quote" data-mr="💡 प्रेरणादायक कोट">💡 Inspiring Quote</h3>
+                <blockquote class="text-xl italic mb-4" data-en="Resilient farms build resilient futures." data-mr="लवचिक शेते लवचिक भविष्य निर्माण करतात.">
                     "Resilient farms build resilient futures."
                 </blockquote>
-                <p class="opacity-90">
+                <p class="opacity-90" data-en="Every sustainable practice we adopt today creates a stronger, more food-secure tomorrow for communities worldwide." data-mr="आज आपण स्वीकारलेली प्रत्येक शाश्वत पद्धत जगभरातील समुदायांसाठी अधिक मजबूत, अधिक अन्न-सुरक्षित उद्या निर्माण करते.">
                     Every sustainable practice we adopt today creates a stronger, more food-secure tomorrow for communities worldwide.
                 </p>
             </div>
@@ -369,16 +377,16 @@
     <section id="contact" class="py-20 bg-warm-beige">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">Contact Us</h2>
+                <h2 class="text-4xl font-bold text-gray-900 mb-4" data-en="Contact Us" data-mr="आमच्याशी संपर्क साधा">Contact Us</h2>
                 <div class="w-24 h-1 bg-sdg-green mx-auto mb-8"></div>
-                <p class="text-xl text-gray-600">
+                <p class="text-xl text-gray-600" data-en="Have questions, ideas, or want to collaborate? We'd love to hear from you!" data-mr="प्रश्न, कल्पना आहेत किंवा सहयोग करू इच्छिता? आम्हाला तुमच्याकडून ऐकायला आवडेल!">
                     Have questions, ideas, or want to collaborate? We'd love to hear from you!
                 </p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-12">
                 <div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6" data-en="Get in Touch" data-mr="संपर्कात रहा">Get in Touch</h3>
                     <div class="space-y-6">
                         <div class="flex items-center">
                             <div class="bg-sdg-green p-3 rounded-full mr-4">
@@ -388,7 +396,7 @@
                             </div>
                             <div>
                                 <h4 class="font-semibold text-gray-900">WhatsApp</h4>
-                                <a href="https://wa.me/919021307634" target="_blank" rel="noopener noreferrer" class="text-sdg-green hover:text-green-700">+91 9021307634</a>
+                                <a href="https://wa.me/919900990099" target="_blank" rel="noopener noreferrer" class="text-sdg-green hover:text-green-700">+91 9900990099</a>
                             </div>
                         </div>
                         <div class="flex items-center">
@@ -406,21 +414,21 @@
                 </div>
 
                 <div class="bg-white p-8 rounded-2xl shadow-lg">
-                    <h3 class="text-xl font-bold text-gray-900 mb-6">Send us a Message</h3>
+                    <h3 class="text-xl font-bold text-gray-900 mb-6" data-en="Send us a Message" data-mr="आम्हाला संदेश पाठवा">Send us a Message</h3>
                     <form id="contact-form" class="space-y-6">
                         <div>
-                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Your Name</label>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2" data-en="Your Name" data-mr="तुमचे नाव">Your Name</label>
                             <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sdg-green focus:border-transparent">
                         </div>
                         <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2" data-en="Email Address" data-mr="ईमेल पत्ता">Email Address</label>
                             <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sdg-green focus:border-transparent">
                         </div>
                         <div>
-                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Your Message</label>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2" data-en="Your Message" data-mr="तुमचा संदेश">Your Message</label>
                             <textarea id="message" name="message" rows="4" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sdg-green focus:border-transparent"></textarea>
                         </div>
-                        <button type="submit" class="w-full bg-sdg-green hover:bg-green-600 text-white py-3 px-6 rounded-lg font-semibold transition-colors">
+                        <button type="submit" class="w-full bg-sdg-green hover:bg-green-600 text-white py-3 px-6 rounded-lg font-semibold transition-colors" data-en="Send Message" data-mr="संदेश पाठवा">
                             Send Message
                         </button>
                     </form>
@@ -442,7 +450,7 @@
                         A student-led initiative promoting sustainable agriculture and zero hunger awareness through digital campaigns and community engagement.
                     </p>
                     <div class="flex space-x-4">
-                        <a href="https://wa.me/919021307634" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors">
+                        <a href="https://wa.me/919900990099" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors">
                             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
                             </svg>
@@ -492,6 +500,38 @@
     </footer>
 
     <script>
+        // Language toggle functionality
+        let currentLanguage = 'en';
+        
+        function toggleLanguage() {
+            currentLanguage = currentLanguage === 'en' ? 'mr' : 'en';
+            
+            // Update all elements with translation data
+            const elementsWithTranslation = document.querySelectorAll('[data-en][data-mr]');
+            elementsWithTranslation.forEach(element => {
+                if (currentLanguage === 'mr') {
+                    element.textContent = element.getAttribute('data-mr');
+                } else {
+                    element.textContent = element.getAttribute('data-en');
+                }
+            });
+            
+            // Update language button text
+            const langText = document.getElementById('lang-text');
+            const mobileLangText = document.getElementById('mobile-lang-text');
+            if (currentLanguage === 'mr') {
+                langText.textContent = 'English';
+                mobileLangText.textContent = 'English';
+            } else {
+                langText.textContent = 'मराठी';
+                mobileLangText.textContent = 'मराठी';
+            }
+        }
+
+        // Language toggle event listeners
+        document.getElementById('language-toggle').addEventListener('click', toggleLanguage);
+        document.getElementById('mobile-language-toggle').addEventListener('click', toggleLanguage);
+
         // Mobile menu toggle
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
@@ -558,5 +598,5 @@
             }
         });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9940198e7104ff68',t:'MTc2MTM3ODM4My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'99495e5816894728',t:'MTc2MTQ3NTU3My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
